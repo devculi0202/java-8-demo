@@ -4,8 +4,6 @@ public class IntegerBinaryOperatorCustomImpl implements BinaryOperatorCustom<Int
 
 	@Override
 	public Integer apply(Integer t, Integer u) {
-		System.out.println("t is"+ t);
-		System.out.println("u is"+ u);
 		return t+u;
 	}
 
